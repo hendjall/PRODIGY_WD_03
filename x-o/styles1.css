@@ -1,0 +1,42 @@
+
+.container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+ 
+
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ba5215;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #ddd;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #ea6a14;
+    background-color: aqua;
+  }
+  
